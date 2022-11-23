@@ -8,7 +8,7 @@ jobs:
       image: bilelmoussaoui/flatpak-github-actions:freedesktop-22.08
       options: --privileged
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
       with:
         submodules: true
     - uses: flatpak/flatpak-github-actions/flatpak-builder@v4
@@ -19,3 +19,4 @@ jobs:
       with:
         name: io.github.ja2-stracciatella.flatpak
         path: ./io.github.ja2-stracciatella.flatpak
+    - run: 'flatpak-builder-lint io.github.ja2-stracciatella.yaml'
