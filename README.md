@@ -1,6 +1,1 @@
-# JA2 Stracciatella Flatpak
-
-A [flatpak][] manifest for [JA2 Stracciatella][ja2].
-
-[flatpak]: https://flatpak.org/
-[ja2]: https://github.com/ja2-stracciatella/ja2-stracciatella
+Added to flathub, see https://github.com/flathub/io.github.ja2_stracciatella.JA2-Stracciatella and https://flathub.org/apps/details/io.github.ja2_stracciatella.JA2-Stracciatella
